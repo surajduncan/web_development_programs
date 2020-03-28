@@ -49,3 +49,21 @@ answer.value="";
 </head>
 <body>
 <table>
+  <tr><th colspan="4"> SIMPLE CALCULATOR </th></tr>
+<tr><td>value1</td><td><input type="text" id="value1" value="0"/></td>
+<td>value2</td><td><input type="text" id="value2" value="0"/> </td></tr>
+<tr><td><input type="button" value="Addition" id = "add"
+onclick="calc(this.id)"/></td>
+<td><input type="button" value="Subtraction" id = "sub"
+onclick="calc(this.id)"/></td>
+<td><input type="button" value="Multiplication" id = "mul"
+onclick="calc(this.id)"/></td>
+<td><input type="button" value="Division" id ="div"
+onclick="calc(this.id)"/></td></tr>
+<tr><td>Answer:</td><td> <input type="text" id="answer" value=""
+disabled/></td>
+<td colspan="2"><input type="button" value="CLEAR ALL" onclick="cls()"/></td>
+</tr>
+</table>
+</body>
+</html>
