@@ -1,5 +1,4 @@
-# Write a JavaScript to design a simple calculator to perform the following operations: sum,
-product, difference and quotient.
+# Write a JavaScript to design a simple calculator to perform the following operations: sum,product, difference and quotient.
 
 
 
@@ -37,3 +36,16 @@ else if(clicked_id=="sub")
 document.getElementById("answer").value=val1-val2;
 else if(clicked_id=="mul")
 document.getElementById("answer").value=val1*val2;
+else if(clicked_id=="div")
+document.getElementById("answer").value=val1/val2;
+}
+function cls()
+{
+value1.value="0";
+value2.value="0";
+answer.value="";
+}
+</script>
+</head>
+<body>
+<table>
