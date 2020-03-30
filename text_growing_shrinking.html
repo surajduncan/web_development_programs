@@ -22,4 +22,13 @@ transform: translate(-50%, -50%);
 </style>
 </head>
 <body>
-<
+<p id="demo"></p>
+<script>
+var var1 = setInterval(inTimer, 1000);
+var fs = 5;
+var ids = document.getElementById("demo");
+function inTimer() {
+ids.innerHTML = 'TEXT GROWING';
+ids.setAttribute('style', "font-size: " + fs + "px; color: red");
+fs += 5;
+if(fs >= 50 ){
