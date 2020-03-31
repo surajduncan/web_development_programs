@@ -18,3 +18,10 @@ if(!(isNaN(str)))
 {
 var num,rev=0,remainder;
 num = parseInt(str);
+  while(num!=0) {
+remainder = num%10;
+num = parseInt(num/10);
+rev = rev * 10 + remainder;
+}
+alert("Reverse of "+str+" is "+rev);
+}
