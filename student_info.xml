@@ -36,3 +36,10 @@ students. Create a CSS style sheet and use it to display the document.
 <USN>USN : 1RN07EC001</USN>
 <name>NAME : CHETHAN</name>
 <college>COLLEGE : RNSIT</college>
+<branch>BRANCH : Electronics and Communication Engineering
+</branch>
+<year>YEAR : 2007</year>
+<e-mail>E-Mail : chethan@gmail.com</e-mail>
+</student>
+</students>
+</html>
