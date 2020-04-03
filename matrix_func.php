@@ -1,5 +1,7 @@
-# Find the transpose of a matrix
-
+# Find the 
+# a) transpose of a matrix
+# b) addition of matrix
+#c) multiplication of matrix
 
 
 
@@ -41,7 +43,7 @@ echo "<br/>";
 }
 }
 if($n===$p){
-echo " The multiplication of matrices: <br/>";
+echo " The multiplication of matrices a: <br/>";
 $result=array();
 for ($i=0; $i < $m; $i++) {
 for($j=0; $j < $q; $j++){
