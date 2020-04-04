@@ -5,6 +5,9 @@ a)  Search for a word in variable states that ends in xas. Store this word in el
 b)  Search for a word in states that begins with k and ends in s. Perform a case-insensitive
     comparison. [Note: Passing re.Ias a second parameter to method compile performs a
     case-insensitive comparison.] Store this word in element1of states List.
+c)  Search for a word in states that begins with M and ends in s. Store this word in element 2
+    of the list.
+d)  Search for a word in states that ends in a. Store this word in element 3 of the list.
 
 
 
