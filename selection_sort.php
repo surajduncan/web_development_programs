@@ -105,3 +105,10 @@ for($i=0;$i<$n;$i++) {
 echo "<tr>";
 echo "<td>". $a[$i]."</td>";
 echo "<td>". $c[$i]."</td>";
+  echo "<td>". $d[$i]."</td></tr>";
+}
+echo "</table>";
+$conn->close();
+?>
+</body>
+</html>
