@@ -1,4 +1,4 @@
-# Find the 
+# Find the following operations
 # a) transpose of a matrix
 # b) addition of matrix
 #c) multiplication of matrix
