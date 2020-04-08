@@ -1,5 +1,4 @@
-# Write a PHP program to display a digital clock which displays the current time
-of the server.
+# Write a PHP program to display a digital clock which displays the current time of the server.
 
 
 
